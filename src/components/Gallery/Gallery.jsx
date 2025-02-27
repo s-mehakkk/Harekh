@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Gallery.css"
-const images = import.meta.glob("../../assets/images/*.(png|jpeg|svg|jpg)", { eager: true });
+const images = import.meta.glob("../../assets/optimized_images/*.(avif)", { eager: true });
 
 const Gallery = () => {
   const [imageUrls, setImageUrls] = useState([]);
