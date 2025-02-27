@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaInstagram } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import "./header.css";
+import "./Header.css";
 
 const Header = () => {
   const navigate = useNavigate();
