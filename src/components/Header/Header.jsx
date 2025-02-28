@@ -19,7 +19,7 @@ const Header = () => {
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
       <div className="nav-links">
         <button key="Art" className="info-button" onClick={() => navigate("/")}>ART</button>
-        <button key="Cloth" className="nav-button" onClick={() => window.open("https://www.google.com", "_blank")}>CLOTHING</button>
+        <button key="Cloth" className="nav-button" onClick={() => window.open("https://garqaab.com", "_blank")}>CLOTHING</button>
       </div>
 
       <div className="logo-container">
@@ -27,7 +27,7 @@ const Header = () => {
       </div>
 
       <div className="nav-links">
-        <button className="icon-container" onClick={() => window.open("https://www.instagram.com", "_blank")}><FaInstagram size={30} color="white" /></button>
+        <button className="icon-container" onClick={() => window.open("https://instagram.com/garqaab", "_blank")}><FaInstagram size={30} color="white" /></button>
       </div>
     </nav>
   );
